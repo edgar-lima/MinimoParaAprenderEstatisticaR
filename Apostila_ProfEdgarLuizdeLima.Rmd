@@ -1,0 +1,19 @@
+---
+title: "O mínimo que você precisa saber para aprender estatística no R."
+author: "Prof. MSc. Edgar Luiz de Lima"
+date: "19/03/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Módulo 1 - Iniciando os trabalhos
+
+
+# Módulo 2 - Variáveis e tipo de dados
+
+
+# Módulo 3 - Estrutura e manipulação de dados
+
+
+# BÔNUS - GRÁFICOS
