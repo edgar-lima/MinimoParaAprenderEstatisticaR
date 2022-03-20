@@ -12,6 +12,39 @@ output:
 
 # Módulo 2 - Variáveis e tipo de dados
 
+## Usando o R como calculadora
+
+  Podemos utilizar o R para realizar operações básicas de som +, subtração -, multiplicação *, divisão / e exponiação ^.
+```{r}
+2+2
+2*2
+2/2
+2-2
+3^2
+```
+
+  Também podemos salvar os resultados dentro de um objeto, por exemplo:  vamos elevar 3 ao quadrado e salvar dentro de objeto chamado A.
+```{r}
+A<- 3^2
+```
+  Note que o R não mostra o resultado, então temos que pedir para o R nos mostrar o resultado da operação. 
+  
+  Outra coisa importante é que o R diferencia A de a, o R interpreta letras maiúsclas diferentemente de letras minúsculas.
+```{r}
+A
+```
+  Também podemos salvar letras e palavras dentro de um objeto, mas para isso devemos colocar a letra ou a palavra em aspas.
+```{r}
+b<- "Hoje"
+c<- "Eu"
+d<- "Vou aprender R"
+```
+
+```{r}
+b
+c
+d
+```
 
 # Módulo 3 - Estrutura e manipulação de dados
 
