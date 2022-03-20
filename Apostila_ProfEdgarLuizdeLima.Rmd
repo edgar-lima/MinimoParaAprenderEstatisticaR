@@ -137,7 +137,16 @@ Agora pedimos pra ver oq tem dentro do vetor idade.
 ```{r}
 idade
 ```
-Como 
+Como acima, podemos também armazenar letras e palavras em um vetor.
+```{r}
+letras<- c("a", "b", "c", "d", "e")
+letras
+```
+Podemos mesclar letras e palavras
+```{r}
+palavras<- c("Edgar", "Curso", "de", "R")
+palavras
+```
 Nós podemos querer saber a soma das idades dentro do vetor, para isso existe a função sum.
 ```{r}
 sum(idade)
@@ -160,5 +169,45 @@ length(idade)
 Podemos observar então que o nosso vetor idade tem comprimento 8, existem 8 valores guardados dentro deles.
 
 
+É possível fazer outras operações com vetores, abaixo iremos somar 10 a cada valor do vetor. 
+```{r}
+idade+10
+```
+Da mesma forma que foi possível somar, também é possível fazer qual quer uma das operações básicas.
 
+Podemos também fazer uma operação entre dois vetores de mesmo tamanho.
+```{r}
+idade<- c(18,25,30,28,10,15,60,55) 
+reducao<-c(2,4,6,8,10,12,14,16)
+idade-reducao
+```
+Agora vamos ver como retirar valores específicos de dentro de de vetor. Pra acessar uma possição dentro do vetor, não utilizamos colchetes e o número da posição que queremos retirar o valor. Por exemplo, eu quero retirar o 5° elemento de dentro do vetor.
+```{r}
+idade[5]
+```
+Então, o valor que está na quinta posição do vetor é o número 10.
+
+Mas agora queremos retirar dois valores de dentro do vetor, vamos retirar o primeiro e o oitavo valor do vetor. Para isso utilizamos um vetor indicando as duas posições que queremos retirar.
+
+```{r}
+idade[c(1,8)]
+```
+Podemos também retirar valores com base em um teste lógico, por exemplo, queremos retirar valores maiores que 20, para isso precisamos fazer um teste lógico.
+```{r}
+teste<- idade>20
+```
+
+Vamos olhar agora oq obtemos ao fazer esse teste.
+```{r}
+teste
+```
+O vetor teste nos retona um vetor de valores lógicos, onde os valores TRUE são aqueles em que o vetor idade apresentou valores maiores que 20. 
+Nós podemos utilizar o vetor teste para retirar apenas os valores que foram maior que 20.
 # BÔNUS - GRÁFICOS
+```{r}
+idade[teste]
+```
+
+
+
+
