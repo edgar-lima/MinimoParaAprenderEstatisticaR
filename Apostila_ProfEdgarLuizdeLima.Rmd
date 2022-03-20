@@ -99,6 +99,8 @@ logico3<- "A"=="a"
 class(logico3)
 ```
 Podemos ver então que o obejeto logico3 é da classe logical.
+
+
 # Módulo 3 - Estrutura e manipulação de dados
 
 
