@@ -201,13 +201,26 @@ Vamos olhar agora oq obtemos ao fazer esse teste.
 ```{r}
 teste
 ```
-O vetor teste nos retona um vetor de valores lógicos, onde os valores TRUE são aqueles em que o vetor idade apresentou valores maiores que 20. 
+O vetor teste nos retona um vetor de valores lógicos, onde os valores TRUE são aqueles em que o vetor idade apresentou valores maiores que 20.
+
 Nós podemos utilizar o vetor teste para retirar apenas os valores que foram maior que 20.
-# BÔNUS - GRÁFICOS
 ```{r}
 idade[teste]
 ```
 
+Podemos fazer uma substituição de valores, por exemplo, substituir o valor da quinta posição por outro valor.
+```{r}
+idade[5]<- 100
+idade
+```
+Podemos criar um ou outro vetor que é um subconjunto do vetor idade.
+```{r}
+idade2<-idade[c(2,4,6,8)]
+idade2
+```
+
+## Matrizes
 
 
 
+# BÔNUS - GRÁFICOS
