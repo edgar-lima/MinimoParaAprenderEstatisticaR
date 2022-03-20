@@ -45,7 +45,60 @@ b
 c
 d
 ```
+## Funções
 
+O R possui diversas função que podemos utilizar parar realizar diferentes operações. O uso de uma função é feito escrevendo o nome da função e entre parêntese os argumentos da função, função (argumentos). Caso precise passar mais de um argumento para função, os argumentos são separados por vírgula.
+```{r}
+log(10) # calculando o logarítimo natural de 10.
+```
+Agora podemos calcular o logarítmo de 10 na base 2. Note que temos dois argumentos separados por vírgula.
+```{r}
+log(10,2)
+```
+Podemos também utilizar uma função que indica a classe da nossa variável.
+```{r}
+a<- 10
+class(a)
+```
+A variável a é uma variável numérica.
+
+```{r}
+b<- "Eu vou aprender R"
+class(b)
+```
+O objeto b é uma variável da classe character, pois é composto por letras ou simpolos.
+
+Existem também as variáveis do tipo lógicas, são aquelas variáveis que guardam o resultado de uma comparação lógica, e pode ter o valor TRUE ou FALSE. Vamos fazer um teste lógico, iremos perguntar se a letra z é igual à 1 e vamos guardar o resultado detro de um obejeto chamado logica.
+```{r}
+logica<- "z" ==1
+logica
+```
+Obtemos um resultado FALSE, dizendo que a leta z não é igual a 1. A letra z está entre parentese, pq toda letra que não representa um objeto precisa estar entre aspas para ser interpretada pelo R.
+
+Podemos agora perguntar se a leta z é diferente de 1.
+```{r}
+logica2<- "z" != 1
+logica2
+```
+Além de testar se a igualdade e a diferença entre variáveis, podemos também testar se 10 é maior que 0 ou se 2 é menor que 5 por exemplo.
+```{r}
+10>0
+```
+
+
+```{r}
+2<5
+```
+Agora pra mostrar que o R interpreta letras maiúsculas de maneira diferente de letras minusculas, vamos fazer um teste de igualdade.
+```{r}
+"A"=="a"
+```
+Como podemos ver, ele não considera A e a como tendo o mesmo valor. Vamos checar qual é a classe do objeto que guarda um resultado lógico?
+```{r}
+logico3<- "A"=="a"
+class(logico3)
+```
+Podemos ver então que o obejeto logico3 é da classe logical.
 # Módulo 3 - Estrutura e manipulação de dados
 
 
