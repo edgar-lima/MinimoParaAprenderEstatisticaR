@@ -55,6 +55,19 @@ Agora podemos calcular o logarítmo de 10 na base 2. Note que temos dois argumen
 ```{r}
 log(10,2)
 ```
+A função prod calcula retona o produto de vários números.
+```{r}
+prod(2,3,4,5,6)
+```
+Temos também a função sqrt que retorna a raíz quadrada de um número.
+```{r}
+sqrt(360)
+```
+A função round serve para indicar quantas cassas decimais queremos visualizar. Nela passamos um valor ou uma variável que guarda um valor, e indicamos quantas casa decimais queremos. Aqui iremos guardar o resultado da raíz quadrada de 360 dentro de um obejto chamado raiz, e pedir para o R devover o resultado com apenas duas casas decimais.
+```{r}
+raiz<- sqrt(360)
+round(raiz,2)
+```
 Podemos também utilizar uma função que indica a classe da nossa variável.
 ```{r}
 a<- 10
