@@ -116,5 +116,41 @@ Podemos ver então que o obejeto logico3 é da classe logical.
 
 # Módulo 3 - Estrutura e manipulação de dados
 
+Agora iremos aprender sobre as estruturas de dados e como manipulá-las. Os objetos de estrutura de dados que que iremos ver no curso são os objetos básicos do R.
+
+1. Vetor: é uma sequência de valores que podem sem númericos caracteres ou lógicos;
+
+2. Matrizes: é um objeto com duas dimensões, ou seja, possui linhas e colunas, e as matrizes só podem armazenar variáveis de um tipo lógicas, númericas e caracteres. 
+
+3. Dataframe: assim como as matrizes, também é um objeto de duas dimensões, mas seu diferencial é que ela pode armazenar variáveis de diferentes tipo.
+
+4 Listas: é um objeto que armazena outras estruturas de dados, podem armazenar vetores, matrizes e dataframes.
+
+## Vetores
+
+Vamos começar então pelo estrutura de dados mais simples, os vetores. Podemos criar um vetor que armazena diferentes valores. Por exemplo, o vetor abaixo vai armazenar diferentes idades. Para criar um vetor iremos usar a função concatenar, que é chamada com a leta c.
+```{r}
+idade<- c(18,25,30,28,10,15,60,55) 
+```
+
+Agora pedimos pra ver oq tem dentro do vetor idade.
+```{r}
+idade
+```
+Nós podemos querer saber a soma das idades dentro do vetor, para isso existe a função sum.
+```{r}
+sum(idade)
+```
+Para saber a média das idades usamos a função mean, como não é "elegante" apresentar uma média sem uma medida de dispersão, iremos também calcular a variância e o desvio padrão.
+```{r}
+mean(idade)
+var(idade)
+sd(idade)
+```
+Para saber os valores mínimos e máximos podemos utilizar as funções min e max respectivamente.
+```{r}
+min(idade)
+max(idade)
+```
 
 # BÔNUS - GRÁFICOS
