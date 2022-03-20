@@ -137,6 +137,7 @@ Agora pedimos pra ver oq tem dentro do vetor idade.
 ```{r}
 idade
 ```
+Como 
 Nós podemos querer saber a soma das idades dentro do vetor, para isso existe a função sum.
 ```{r}
 sum(idade)
@@ -152,5 +153,12 @@ Para saber os valores mínimos e máximos podemos utilizar as funções min e ma
 min(idade)
 max(idade)
 ```
+Uma função muito importante se chama length, ela nos retona quantos elementos tem dentro do vetor, ou seja, ela retorna o tamanho do vetor.
+```{r}
+length(idade)
+```
+Podemos observar então que o nosso vetor idade tem comprimento 8, existem 8 valores guardados dentro deles.
+
+
 
 # BÔNUS - GRÁFICOS
