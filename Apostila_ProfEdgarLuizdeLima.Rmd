@@ -120,7 +120,7 @@ Agora iremos aprender sobre as estruturas de dados e como manipulá-las. Os obje
 
 1. Vetor: é uma sequência de valores que podem sem númericos caracteres ou lógicos;
 
-2. Matrizes: é um objeto com duas dimensões, ou seja, possui linhas e colunas, e as matrizes só podem armazenar variáveis de um tipo lógicas, númericas e caracteres. 
+2. Matrizes: é um objeto com duas dimensões, ou seja, possui linhas e colunas, as matrizes só podem armazenar variáveis de um tipo lógicas, númericas e caracteres. 
 
 3. Dataframe: assim como as matrizes, também é um objeto de duas dimensões, mas seu diferencial é que ela pode armazenar variáveis de diferentes tipo.
 
@@ -220,7 +220,7 @@ idade2
 ```
 
 ## Matrizes
-
+As matrizes são estrutura de dados com duas dimensões, ela possuem linhas e colunas e armazenam dados de apenas um tipo (ex. numérico, character...).
 
 
 # BÔNUS - GRÁFICOS
