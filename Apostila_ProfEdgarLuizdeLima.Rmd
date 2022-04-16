@@ -222,5 +222,35 @@ idade2
 ## Matrizes
 As matrizes são estrutura de dados com duas dimensões, ela possuem linhas e colunas e armazenam dados de apenas um tipo (ex. numérico, character...).
 
+Podemos criar uma matrix utilizando a seguinte expressão:
+matrix(nrow= 3, ncol= 3), ou seja, iremos criar uma matriz com 3 linhas e 3 colunas.
+```{r}
+matrix(nrow= 3, ncol= 3)
+```
+Como não foi indicado um conjunto de dados para a função, ela criou uma matriz preenchida com NA.
+
+Agora vamos criar um matriz com a mesma dimensão, mas preenchida com o número 0. 
+**Note que entre colchetes temos a indicação do número da coluna e de linhas.**
+```{r}
+matrix(data= 0,nrow= 3, ncol= 3)
+```
+
+Assim como no caso dos vetores nós podemos salvar a matrix como um objeto. Aqui vamos contruir uma matriz 3x3 e preenchida com número de 1 à 9 e iremos salvar como objeto chamado mat1.
+```{r}
+mat1<- matrix(1:9, 3,3)
+mat1
+```
+
+Assim como retiramos valores específico para os vetores, nós também podemos retirar valores específicos das matrizes. Vamos começar retirando linhas específicas. A indexação para matrizes funciona indicando entre colchetes quais linhas ou colunas você quer retirar. Ex. matriz[linha,coluna]
+
+No exemplo abaixo iremos retirar a linha 1 da matriz mat1.
+```{r}
+mat1[1,]
+```
+
+Podemos também retirar a coluna 3.
+```{r}
+mat1[,3]
+```
 
 # BÔNUS - GRÁFICOS
