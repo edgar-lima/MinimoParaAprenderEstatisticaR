@@ -252,5 +252,31 @@ Podemos também retirar a coluna 3.
 ```{r}
 mat1[,3]
 ```
+Como podemos observar nos dois exemlos acima, a primeira posição antes da vírgula indica qual é a linha, e a segunda posição indica qual é a coluna, se indicamos uma linha e não indicamos a coluna, nós retiramos todos os valores daquela linha, e o mesmo vale para as colunas. Mas se indicarmos o número da linha e o número da coluna, nós conseguimos retirar uma célula em específico.
+
+No exemplo abaixo iremos retirar o valor que está na linha 2 e na coluna 3. 
+```{r}
+mat1[2,3]
+```
+Podemos oberservar então que o valor que está na linha 2 coluna 3 é o número 8.
+
+Podemos também retirar mais de uma coluna ou mais de uma linha. No exemplo abaixo iremos retirar todas as linhas das colunas 2 e 3 e salvar em um objeto chamado mat2.
+
+Para retirar mais de uma coluna ou linha, devemos indicar a posiçao dentro de um vetor.
+```{r}
+mat2<-mat1[,c(2,3)]
+mat2
+```
+Agora temos uma nova matriz chamada mat2 que é um subconjunto da mat1.
+
+Agora podemos fazer a mesma coisa mas para as linhas. Vamos criar uma matriz chamada mat3 que será uma subconjunto das linhas 1 e 3 e das colunas 1 e 2 de mat1.
+```{r}
+mat3<-mat1[c(1,3),c(1,2)]
+mat3
+```
+
 
 # BÔNUS - GRÁFICOS
+```{r}
+
+```
